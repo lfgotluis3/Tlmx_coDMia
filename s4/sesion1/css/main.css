@@ -1,0 +1,96 @@
+h1
+    {
+        font-family: arial;
+    }
+
+#some-id
+    {
+        color: peru;
+    }
+
+.some-class
+    {
+        border: 1px solid red;
+        margin: 10px;
+        padding: 10px;
+    }
+
+ul.some-class
+    {
+        background: slategrey;
+    }
+
+ul.some-class li
+    {
+        background: white;
+        color: slategrey;
+        border-bottom: 1px solid slategrey;
+    }
+
+button
+    {
+        width: 100px;
+        height: 30px;
+        border: 1px solid navy;
+        color: navy;
+        background: none;
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px #333;
+        transition: all 1s ease;
+        opacity: 1;
+    }
+
+button:hover/*seudoselector de estado*/
+    {
+        background: navy;
+        color: white;
+        cursor: pointer;
+        opacity: 0;
+    }
+
+input[type="text"]/*selector por atributo*/
+    {
+        width: 200px;
+        height: 30px;
+        background: white;
+        border: 1px solid #eaeaea;
+        box-shadow: 3px 3px 6px #333;
+        border-radius: 5px;
+    }
+
+input[type="password"]
+    {
+        width: 200px;
+        height: 30px;
+        background: white;
+        border: 1px solid #333;
+        box-shadow: 3px 3px 6px #333;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+ul li:nth-of-type(3)
+    {
+        background: peru;
+    }
+
+ul li:nth-of-type(2n)
+    {
+        background: red;
+    }
+
+ul li:nth-of-type(2n + 3)
+    {
+        background: skyblue;
+    }
+
+/*id="ordered list"*/
+ol#ordered-list li:nth-of-type(odd)
+    {
+        background: lightgray;
+    }
+
+ol li:nth-of-type(even)
+    {
+        background: pink;
+    }

@@ -1,0 +1,29 @@
+/*.container
+    {
+        background: linear-gradient(45deg, black, transparent);
+    }*/
+
+.data-wrapper
+    {
+        width: 100%;
+    }
+
+@media only screen and (min-width: 991px)
+    {
+        .data-wrapper
+            {
+                width: 75%;
+            }
+    }
+
+/*form
+    {
+        background: #0f6a2bd1;
+        border: 3px solid  #00a93461;
+    }
+
+.card
+    {
+        background: #0f6a2bd1;
+        border: 3px solid  #00a93461;
+    }*/

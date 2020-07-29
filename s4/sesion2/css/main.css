@@ -1,0 +1,77 @@
+*
+    {
+        color: black;
+        font-family: arial;
+    }
+
+.container-fluid
+    {
+        background-image: linear-gradient(rgba(25,25,25,.2), rgba(0,0,0,.8) ), url("../img/uno.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+/*.container
+    {
+        display: flex;
+    }*/
+
+#left-side
+    {
+        width: 40%;
+        border: 1px solid white;
+    }
+
+#right-side
+    {
+        width: 60%;
+        border: 1px solid lightgrey;
+    }
+
+.personal-data img
+    {
+         width: 100%;
+        display: block;
+    }
+
+.personal-data .social-icon-wrapper
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+.personal-data .social-icon-wrapper img
+    {
+        width: 35px;
+        height: 35px;
+    }
+
+.personal-data .social-icon-wrapper img:hover
+    {
+        cursor: pointer;
+    }
+
+.p-20px
+    {
+        padding: 20px;
+    }
+
+.text-center
+    {
+        text-align: center;
+    }
+
+.experience-wrapper
+    {
+        background: rgba(255, 255, 255, .5);
+        border-radius: 5px;
+        text-align: center;
+        padding: 75px;
+    }
+
+.experience-wrapper .role-description
+    {
+        margin-top: 50px;
+    }
