@@ -1,0 +1,172 @@
+body
+    {
+        background: url("../img/background.jpg");
+    }
+
+.list-group-item
+    {
+        margin: 5px;
+        background: rgba(10, 206, 206,  .7);
+        color: rgba(0,0,0,.9);
+    }
+
+.list-group-item:first-of-type, .list-group-item:last-of-type
+    {
+        border-radius: 0px;
+    }
+
+.list-group-item.active
+    {
+        background: rgba(9, 9, 56, 0.7);
+    }
+
+.list-group-item:hover
+    {
+        background: rgba(255, 255, 255,  .7);
+        cursor: pointer;
+    }
+
+.card
+    {
+        max-height: calc(100vh - 40px);
+        overflow-y: scroll;
+        background: honeydew;
+    }
+.card img
+    {
+        width: 70%;
+        margin: 50px auto 20px auto;
+        border-radius: 50%;
+    }
+
+.card .card-title
+    {
+        color: #333;
+        text-align: center;
+    }
+
+.card .card-title span
+    {
+        color: rgba(10, 206, 206,  .7);
+    }
+
+.card h4
+    {
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+    }
+
+.card .btn-primary
+    {
+        background-color: rgba(10, 206, 206,  .7);
+        border: none;
+    }
+
+.social-network-wrapper
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+.social-network-wrapper .social-icon
+    {
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+.social-network-wrapper .social-icon.facebook
+    {
+        background-image: url("../img/facebook-icon.png");
+    }
+
+.social-network-wrapper .social-icon.twiter
+    {
+        background-image: url("../img/twiter-icon.png");
+    }
+
+.social-network-wrapper .social-icon.arduino
+    {
+        background-image: url("../img/arduino.png");
+    }
+
+.social-network-wrapper .social-icon.github
+    {
+        background-image: url("../img/github.png");
+    }
+
+.social-network-wrapper .social-icon.youtube
+    {
+        background-image: url("../img/youtube-icon.svg");
+    }
+
+.social-network-wrapper .social-icon:not(:first-of-type)
+    {
+        margin-left: 5px;
+    }
+
+/* width */                              ::-webkit-scrollbar
+    {
+        width: 5px;
+    }
+
+/* Track */
+::-webkit-scrollbar-track
+    {
+        background: #f1f1f1;
+    }
+
+/* Handle */
+::-webkit-scrollbar-thumb
+    {
+        background: #888;
+    }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+    {
+       background: #555;
+    }
+
+.resume-wrapper
+    {
+        background: honeydew;
+        border-radius: 5px;
+        height: fit-content;
+        padding: 10px;
+    }
+
+.resume-wrapper h1
+    {
+        background: honeydew;
+        font-size: 2.5rem;
+        border: 5px solid #afb5ba;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+.resume-wrapper .btn-primary
+    {
+        background-color: rgba(10, 206, 206, .7);
+        border: none;
+        border-radius: 0%;
+        cursor: pointer;
+    }
+
+.section-header
+    {
+        border-left: 5px solid turquoise;
+        height: 55px;
+        background-image: url("../img/temple-icon.png");
+        background-size: 44px;
+        background-repeat: no-repeat;
+        font-size: 2.5rem;
+        color: turquoise;
+        padding-left: 60px;
+        background-position: 5px 8px;
+    }

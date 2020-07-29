@@ -1,0 +1,57 @@
+body
+    {
+        background-color: slategrey;
+    }
+
+form-action
+    {
+            background-color: darkcyan;
+    }
+
+.form-group
+    {
+        background-color: turquoise;
+    }
+
+.form-group label
+    {
+        font-family: cursive;
+        color: white;
+    }
+
+.form-group input
+    {
+        background-color: darkcyan;
+        font-family: cursive;
+        color: white;
+    }
+
+#cars-list
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+thead
+    {
+            border: 20px solid darkturquoise;
+    }
+
+tbody
+    {
+        border: 15px solid turquoise;
+    }
+
+tr
+    {
+        border: 10px solid turquoise;
+        text-align: center;
+        color: #f5f5f5;
+    }
+
+td
+    {
+        border: 5px solid turquoise;
+        background-color: lightseagreen;
+        font-family: cursive;
+    }

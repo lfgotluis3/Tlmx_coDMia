@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>List Car</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form id="add-car-form" action="">
+                        <div class="form-group">
+                            <label for="">Marca</label>
+                            <input id="car-company" type="text" class="form-control" value="Dodge">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Modelo</label>
+                            <input id="car-model" type="text" class="form-control" value="viper">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Color</label>
+                            <input id="car-color" type="text" class="form-control" value="Red">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Potencia</label>
+                            <input id="car-horse-power" type="text" class="form-control" value="400">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Cilindros</label>
+                            <input id="car-cilinders" type="text" class="form-control" value="8">
+                        </div>
+                        <div id="submit-button" class="btn btn-success mb-2">Agregar auto</div>
+                    </form>
+                </div>
+                <div class="col">
+                    <table id="cars-list">
+                        <thead>
+                            <tr>
+                                <td>MARCA</td>
+                                <td>MODELO</td>
+                                <td>COLOR</td>
+                                <td>POTENCIA</td>
+                                <td>CL</td>
+                            </tr>
+                        </thead>
+                        <!--tbody>
+                            <tr>
+                                <td>Mazda</td>
+                                <td>Mazda 6</td>
+                                <td>red</td>
+                                <td>250hp</td>
+                                <td>6</td>
+                            </tr>
+                        </tbody-->
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
