@@ -1,0 +1,66 @@
+h1
+{
+    color: red;
+}
+
+.my-class
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+span.my-class
+{
+    display: block;
+}
+
+#user-name
+{
+    border: 2px solid pink;
+}
+
+#text-container
+{
+    padding: 5px;
+    border: 2px dotted red;
+    margin-top: 50px;
+}
+
+#text-container .first-class
+{
+    font-family: Arial;
+    font-weight: bold;
+    color: skyblue;
+}
+#text-container .second-class
+{
+    font-family: Arial;
+    font-weight: bold;
+    color: violet;
+}
+
+.text-container .second-class
+{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*#text-container*/ p:first-of-type
+{
+    font-size: 25px;
+}
+
+/*#text-container*/ p:last-of-type
+{
+    font-style: italic;
+}
+
+/*#text-container*/ p:nth-of-type(4)
+{
+    font-style: italic;
+    text-decoration: underline;
+    color: red;
+}
