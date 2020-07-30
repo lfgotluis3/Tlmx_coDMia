@@ -1,0 +1,16 @@
+*
+    {
+        font-family: arial;
+        color: #333;
+    }
+
+.card
+    {
+        border: px solid slategray;
+        box-shadow: 5px 5px 5px #acacac;
+    }   
+
+.fut
+    {
+        width: 100%;
+    }
