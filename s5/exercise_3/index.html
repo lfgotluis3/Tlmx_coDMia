@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doc Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="login-modalLabel">Registrate con nosotros!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Y recibe nuestras promociones!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Formulario de registro</button>
+                    <button type="button" class="btn btn-success">Save </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="coffee-modal" tabindex="-1" role="dialog" aria-labelledby="coffee-modalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="coffee-modalLabel">Agregando café!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Describenos el nuevo café!!!
+                </div>
+                <div class="modal-footer">
+                    <form>
+                        <div class="form-group">
+                            <label for="coffe-name">Nombre del café</label>
+                            <input type="text" class="form-control" id="coffe-name" 
+                            placeholder="Este café se llama:">
+                        </div>
+                        <div class="form-group">
+                            <label for="coffe-description">Descripción del café</label>
+                            <input type="text" class="form-control" id="coffe-description" placeholder="Es genial porque:">
+                        </div>
+                        <div class="form-group">
+                            <label for="coffe-price">Costo del café</label>
+                            <input type="text" class="form-control" id="coffe-price" placeholder="Tan solo:">
+                        </div>
+                        <div class="form-group">
+                            <label for="coffe-image">Como se ve este café</label>
+                            <input type="text" class="form-control" id="coffe-image" placeholder="Ingresa la url de la imagen">
+                        </div>
+                    </form>
+                </div>
+                <button id="save-button" type="button" class="btn btn-success w-25" data-dismiss="modal">Guardar</button>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <a class="navbar-brand" href="#">Lfgotluis3</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sucursales</a>
+                </li>
+            </ul>
+            <div class="btn btn-outline-warning" data-toggle="modal" data-target="#login-modal">Sign up</div>
+        </div>
+    </nav>
+    <div class="container">
+        <video width="320" height="240" autoplay>
+            <source src="ScreenCapture_2019-8-8 17.42.10.mp4" type="video/mp4">
+            <source src="vid/ScreenCapture_2019-8-8 17.42.10.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <div class="row">
+            <div class="col-12">
+                <div id="coffee-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="coffee-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="coffee-carousel" data-slide-to="1"></li>
+                        <li data-target="coffee-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGJvouF380LjVtE6Nc6YX4WWOfu-ANIt__7KkjVXCI2FO3uVqNg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhceaxEBChV2aQvPt0x0ic-Y9Y1YnFgbzAKiARo2f7Hy5Ml481A" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://photo980x880.mnstatic.com/dbf9aead7cd0475e023ba79df18e2220/cake-heaven-coffee-shop.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="coffee-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="coffee-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="coffee-wrapper" class="row">
+            <div class="col-12 col-lg-4">
+                <div class="card mt-3">
+                    <img class="w-100 d-block mx-auto" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1072007868%2F960x0.jpg%3Ffit%3Dscale" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Moca</h5>  
+                        <ul class="list-group">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, officia.</li>
+                            <li class="list-group-item text-right font-italic font-weight-bold text-success">$25.00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card mt-3">
+                    <img class="w-100 d-block mx-auto" src="img/descarga.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Cappuccino</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, officia.</li>
+                            <li class="list-group-item text-right font-italic font-weight-bold text-success">$35.00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card mt-3">
+                    <img class="w-100 d-block mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGYf09RGqRwQqB3LzxxgJ9uxNWNpTy-mvp8BDNS0fEXllppsgC" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title t">Levanta muertos</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, officia.</li>
+                            <li class="list-group-item text-right font-italic font-weight-bold text-success">$50.00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-end">
+                <div class="btn btn-success my-3" data-toggle="modal" data-target="#coffee-modal">Agregar un café</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
