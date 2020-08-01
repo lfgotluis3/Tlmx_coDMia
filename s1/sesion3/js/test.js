@@ -128,3 +128,4 @@ function setElementMax ()
 {
     document.getElementById("member-index").setAttribute ("max", memberList.length);
 }
+// solo falta el document ready load
