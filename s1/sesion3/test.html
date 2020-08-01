@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test_CV</title>
+    </head>
+    <body>
+        <button onclick="someFunction()">Clik me 1!</button>
+        <button onclick="someFunction('Hola developer luis f 3')">Clik me 2!</button>
+        <button onclick="someFunction(5)">Clik me 3!</button>
+        <button onclick="someFunction(foo)">Clik me 4!</button>
+        <br>
+        <button onclick="getMemberName()">Vamos a ver a los usuarios</button>
+        <button onclick="getMemberByIndex(1)">Vamos a ver al usuario ?</button>
+        <div style="width: 100%; display: block; height: 20px;"></div>
+        <div class="form-group">
+            <label for="">Indice de miembro</label>
+            <input id="member-index" type="number">   
+            <button onclick="getIndex()">Buscar</button>     
+        </div>
+        <h1 id="member-name"></h1>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/test.js"></script>
+    </body>
+</html>
