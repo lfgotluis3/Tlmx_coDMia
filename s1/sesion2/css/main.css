@@ -1,0 +1,27 @@
+.container
+{
+    background: #c5c5c5;
+}
+
+.row
+{
+    background: red;
+}
+
+.col
+{
+    border: 1px solid black;
+}
+
+span
+{
+    background: blue;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+.row>*
+{
+    border: 1px solid black;
+}
